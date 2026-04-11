@@ -1,1 +1,0 @@
-# mirstrategi.github.io
