@@ -29,7 +29,7 @@ class War {
   }
 
   playBattleSound(){
-    const audio = new Audio("assets/sounds/batle.mp3");
+    const audio = new Audio("batle.mp3");
     audio.volume = 0.7;
     
   }
