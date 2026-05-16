@@ -105,4 +105,4 @@ class MapRenderer {
   }
 }
 
-export { MapRenderer };
+export default MapRenderer;
