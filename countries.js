@@ -31,4 +31,4 @@ const COUNTRY_TEMPLATES = {
   AND: { name: "Андорра", color: "#2E57A4", flag: "andorra.png" }
 };
 
-export { Country, COUNTRY_TEMPLATES };
+export default { Country, COUNTRY_TEMPLATES };
