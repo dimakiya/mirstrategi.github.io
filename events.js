@@ -22,7 +22,7 @@ const events = {
       `PLAYER_${Date.now()}`,
       "Восставшие",
       "#FF0000",
-      "assets/images/ui/custom_flag.png"
+      "andora.png"
     );
 
     // Обновляем владение регионом
