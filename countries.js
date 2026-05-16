@@ -26,9 +26,9 @@ class Country {
 }
 
 const COUNTRY_TEMPLATES = {
-  ESP: { name: "Испания", color: "#E8000D", flag: "assets/images/flags/spain.png" },
-  PRT: { name: "Португалия", color: "#006633", flag: "assets/images/flags/portugal.png" },
-  AND: { name: "Андорра", color: "#2E57A4", flag: "assets/images/flags/andorra.png" }
+  ESP: { name: "Испания", color: "#E8000D", flag: "spain.png" },
+  PRT: { name: "Португалия", color: "#006633", flag: "portugal.png" },
+  AND: { name: "Андорра", color: "#2E57A4", flag: "andorra.png" }
 };
 
 export { Country, COUNTRY_TEMPLATES };
