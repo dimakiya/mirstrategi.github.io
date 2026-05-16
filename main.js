@@ -1,5 +1,5 @@
-import { MapRenderer } from './map.js';
-import worldMapData from '../data/world-map.json';
+import { MapRenderer } from 'map.js';
+import worldMapData from 'world-map.json';
 
 class NationGame {
   constructor() {
