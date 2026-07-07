@@ -1,0 +1,176 @@
+{
+  "regions": [
+    {
+      "id": 1,
+      "name": "Мадрид",
+      "areaId": "IBERIA",
+      "owner": "ESP",
+      "population": 3200000,
+      "money": 1500000,
+      "army": 50000,
+      "resources": {
+        "government": 6000,
+        "education": 4500
+      },
+      "vertices": [
+        [180, 280],
+        [220, 260],
+        [250, 300],
+        [230, 330],
+        [190, 320]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Барселона",
+      "areaId": "IBERIA",
+      "owner": "ESP",
+      "population": 1600000,
+      "money": 2200000,
+      "army": 30000,
+      "resources": {
+        "tourism": 8000,
+        "port": 5000
+      },
+      "vertices": [
+        [240, 240],
+        [280, 220],
+        [310, 250],
+        [290, 280],
+        [250, 270]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Севилья",
+      "areaId": "IBERIA",
+      "owner": "ESP",
+      "population": 700000,
+      "money": 900000,
+      "army": 25000,
+      "resources": {
+        "agriculture": 4000,
+        "culture": 3500
+      },
+      "vertices": [
+        [160, 340],
+        [200, 320],
+        [230, 350],
+        [210, 380],
+        [170, 370]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Лиссабон",
+      "areaId": "IBERIA",
+      "owner": "PRT",
+      "population": 500000,
+      "money": 1200000,
+      "army": 40000,
+      "resources": {
+        "port": 6000,
+        "trade": 4500
+      },
+      "vertices": [
+        [100, 300],
+        [140, 280],
+        [170, 310],
+        [150, 340],
+        [110, 330]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Порту",
+      "areaId": "IBERIA",
+      "owner": "PRT",
+      "population": 240000,
+      "money": 600000,
+      "army": 15000,
+      "resources": {
+        "industry": 3000,
+        "wine": 2500
+      },
+      "vertices": [
+        [90, 360],
+        [130, 340],
+        [160, 370],
+        [140, 400],
+        [100, 390]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Андорра-ла-Велья",
+      "areaId": "IBERIA",
+      "owner": "AND",
+      "population": 22000,
+      "money": 300000,
+      "army": 5000,
+      "resources": {
+        "tourism": 2000,
+        "tax_haven": 1500
+      },
+      "vertices": [
+        [260, 200],
+        [300, 180],
+        [330, 210],
+        [310, 240],
+        [270, 230]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Пальма-де-Майорка",
+      "areaId": "IBERIA",
+      "owner": "ESP",
+      "population": 400000,
+      "money": 800000,
+      "army": 20000,
+      "resources": {
+        "tourism": 7000,
+        "port": 3500
+      },
+      "vertices": [
+        [320, 160],
+        [360, 140],
+        [390, 170],
+        [370, 200],
+        [330, 190]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ибица",
+      "areaId": "IBERIA",
+      "owner": "ESP",
+      "population": 140000,
+      "money": 500000,
+      "army": 10000,
+      "resources": {
+        "tourism": 6500,
+        "nightlife": 3000
+      },
+      "vertices": [
+        [340, 120],
+        [380, 100],
+        [410, 130],
+        [390, 160],
+        [350, 150]
+      ]
+    }
+  ],
+  "areas": [
+    {
+      "id": "IBERIA",
+      "name": "Иберия",
+      "regionIds": [1, 2, 3, 4, 5, 6, 7, 8],
+      "ownership": {
+        "ESP": 62.5,
+        "PRT": 25.0,
+        "AND": 12.5
+      }
+    }
+  ]
+}
